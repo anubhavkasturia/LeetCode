@@ -1,6 +1,6 @@
 class maxSumSubArrayofSizeK{
     public static void main(String[] args) {
-        int[] arr={1,2,3,4,5,6};
+        int[] arr={3,2,1,4,5,6};
         int k=3;
         // System.out.println(maxSumSubArray(arr,k));
         System.out.println(slidingWindow(arr, k));
